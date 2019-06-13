@@ -6,19 +6,43 @@
     <style>
       body {
         text-align: center;
-        background-color: grey;
-        font-style: sans-serif;
-        width: 0.75em;
+        background-color: silver;
+        font-family: sans-serif;
+        margin: auto;
+        width: 30em;
       }
-      p {
-        
+      ol {
+        text-align: left;
+        text-decoration: none;
+        color: red;
       }
+      .content-links {
+        text-decoration: none;
+        color: red;
+      }
+
+      #profile-pic {
+        border-radius: 50%;
+      }
+
     </style>
   </head>
   <body>
     <h1> Halvor Nafstad </h1>
+    <img src="profilepic.jpg" alt="Picture of me on the sea" width="250" id="profile-pic">
+
+    <h2> Contents: </h2>
+    <ol id="content-list"> 
+      <li> <a href="#this-page" class="content-links"> This page </a> </li>
+      <li> <a href="#intro-me" class="content-links"> About me </a> </li>
+    </ol>
+
+    <h2 id="this-page"> This page </h2>
+    <p> This page is made primarily to showcase my skills as a developer and I will include sample files of java, python, javascript, etc. I hope this page speaks for itself with regards to my skills in web development.
+
+    <h2 id="intro-me"> About me: </h2>
     <p> MSc in Astrophysics, in my thesis I worked on structure formation within the spherical collapse framework by considering scalar-tensor theories as substitutes for Dark Energy.  </p>
     <p> I am also a former basketball coach for youth teams in Oslo. </p>
-    <p> At the moment my interests ranges from hiking, through physics to programing. I recently did some Khan Academy courses on the use of HTML/CSS. </p>
+    <p> At the moment my interests ranges from hiking, through physics and weight lifting to programing. I recently did some Khan Academy courses on the use of HTML/CSS. </p>
   </body>
 </html>
