@@ -5,16 +5,14 @@
     <title>About me webpage</title>
     <style>
       body {
-        text-align: center;
         background-color: silver;
         font-family: sans-serif;
-        margin: auto;
-        width: 30em;
       }
-      ol {
+      ul {
         text-align: left;
         text-decoration: none;
         color: red;
+        list-style-type: none;
       }
       .content-links {
         text-decoration: none;
@@ -22,7 +20,25 @@
       }
 
       #profile-pic {
+        display: block;
         border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      p {
+        text-align: center;
+        
+        margin: auto;
+        width: 30em;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
       }
 
     </style>
@@ -31,11 +47,10 @@
     <h1> Halvor Nafstad </h1>
     <img src="profilepic.jpg" alt="Picture of me on the sea" width="250" id="profile-pic">
 
-    <h2> Contents: </h2>
-    <ol id="content-list"> 
+    <ul id="content-list"> 
       <li> <a href="#this-page" class="content-links"> This page </a> </li>
       <li> <a href="#intro-me" class="content-links"> About me </a> </li>
-    </ol>
+    </ul>
 
     <h2 id="this-page"> This page </h2>
     <p> This page is made primarily to showcase my skills as a developer and I will include sample files of java, python, javascript, etc. I hope this page speaks for itself with regards to my skills in web development.
