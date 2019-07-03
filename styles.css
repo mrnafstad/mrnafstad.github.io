@@ -77,7 +77,7 @@ h2 {
 
 div {
   padding: 5px;
-  width: 80%;
+  width: 90%;
   }
 
 #main-body {
@@ -96,10 +96,11 @@ div {
 #logg-heading {
   margin-top: 55px;
   padding: 50px;
+  width: 90%;
 }
 
 .blogPost {
-  width: 80%;
+  width: 90%;
   padding: 10px;
   margin: auto;
   background-color: lightgrey;
