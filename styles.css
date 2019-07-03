@@ -37,7 +37,7 @@ ul {
 }
 
 #contents {
-  position: fixed;
+  position: relative;
   left: 2px;
   top: 5px;
   font-size: 1.25em;
