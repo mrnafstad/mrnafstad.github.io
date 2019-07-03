@@ -6,23 +6,23 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
   </head>
   <body>
-    <h1> Halvor Nafstad </h1>
+
+    <h1 id="logg-heading"> Halvor Nafstad </h1>
     <img src="profilepic.jpg" alt="Picture of me at sea" width="250" id="profile-pic">
+    <div id="page">
+      <menu-comp></menu-comp>
 
-    <div id="contents">
-    <ul id="content-list"> 
-      <li> <a href="#this-page" class="content-links"> This page </a> </li>
-      <li> <a href="#intro-me" class="content-links"> About me </a> </li>
-      <li> <a href="pagejavascript.html" class="content-links"> Javascript </a> </li>
-    </ul> </div>
+      <div id="main-body">
+        <h2 id="this-page"> This page </h2>
+        <p class="post"> This page is made primarily to showcase my skills as a developer and I will include sample files of java, python, javascript, etc. I hope this page speaks for itself with regards to my skills in web development.</p>
 
-    <div id="main-body">
-    <h2 id="this-page"> This page </h2>
-    <p class="post"> This page is made primarily to showcase my skills as a developer and I will include sample files of java, python, javascript, etc. I hope this page speaks for itself with regards to my skills in web development.</p>
-
-    <h2 id="intro-me"> About me: </h2>
-    <p class="post"> MSc in Astrophysics, in my thesis I worked on structure formation within the spherical collapse framework by considering scalar-tensor theories as substitutes for Dark Energy.  <br>
-    I am also a former basketball coach for youth teams in Oslo. <br>
-    At the moment my interests ranges from hiking, through physics and weight lifting to programing. I recently did some Khan Academy courses on the use of HTML/CSS. </p></div>
+        <h2 id="intro-me"> About me: </h2>
+        <p class="post"> MSc in Astrophysics, in my thesis I worked on structure formation within the spherical collapse framework by considering scalar-tensor theories as substitutes for Dark Energy.  <br>
+        I am also a former basketball coach for youth teams in Oslo. <br>
+        At the moment my interests ranges from hiking, through physics and weight lifting to programing. I recently did some Khan Academy courses on the use of HTML/CSS. </p>
+      </div>
+    </div>
+    <script src="https://unpkg.com/vue" ></script>
+    <script src="main.js"></script>
   </body>
 </html>
